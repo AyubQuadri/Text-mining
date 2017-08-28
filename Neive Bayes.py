@@ -39,4 +39,4 @@ classifier = nltk.NaiveBayesClassifier.train(training_set)
 
 print("Classifier accuracy percent:",(nltk.classify.accuracy(classifier, testing_set))*100)
 
-classifier.show_most_informative_features(15)
+classifier.show_most_informative_features(5)

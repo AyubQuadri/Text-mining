@@ -74,3 +74,5 @@ def process_content(text):
 
 process_content(exp_2)
 
+print(nltk.pos_tag(exp_2))
+print(PunktSentenceTokenizer.tokenize(exp_2))

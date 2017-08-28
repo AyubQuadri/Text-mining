@@ -22,6 +22,6 @@ for w in movie_reviews.words():
     all_words.append(w.lower())
 
 all_words = nltk.FreqDist(all_words)
-print(all_words.most_common(15))    
+print(all_words.most_common(25))    
 
 print(all_words["stupid"])
